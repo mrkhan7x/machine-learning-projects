@@ -17,3 +17,9 @@ ENV/
 *.joblib
 *.png
 *.jpg
+
+# Notebook/runtime caches and downloaded training data
+.ipynb_checkpoints/
+**/data/
+**/MNIST/
+*.all-data
